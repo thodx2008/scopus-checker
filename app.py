@@ -131,12 +131,12 @@ def main():
                 except Exception as e:
                     st.error(f"Lỗi khi gọi API: {e}")
 
-        st.markdown("""
-        <hr>
-        <div style='text-align:center; color:gray; font-size:14px; margin-top:20px;'>
-            © 2025 – Phòng Quản lý Khoa học và hợp tác - Học viện Chính sách và Phát triển (APD).
-        </div>
-    """, unsafe_allow_html=True)
+    st.markdown("""
+    <hr>
+    <div style='text-align:center; color:gray; font-size:14px; margin-top:20px;'>
+        © 2025 – Phòng Quản lý Khoa học và hợp tác - Học viện Chính sách và Phát triển (APD).
+    </div>
+""", unsafe_allow_html=True)
 
 
 if __name__ == "__main__":
