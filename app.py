@@ -74,8 +74,7 @@ def check_scopus_by_doi(doi: str):
 
 # ====== GIAO DIỆN WEB VỚI STREAMLIT ======
 def main():
-    st.title("Kiểm tra bài báo có thuộc Scopus hay không?")
-    st.title("(Phòng Quản lý Khoa học và hợp tác - Học viện Chính sách và Phát triển)")
+    st.title("(APD) Kiểm tra bài báo có thuộc Scopus hay không?")
     st.write("Nhập **DOI** (khuyến nghị) hoặc **tiêu đề bài báo** để kiểm tra.")
 
     if not API_KEY:
