@@ -6,7 +6,7 @@ import streamlit as st
 # Cách an toàn: đặt SCOPUS_API_KEY ở environment variable, ví dụ:
 #   export SCOPUS_API_KEY="xxxxx" (Linux/Mac)
 #   setx SCOPUS_API_KEY "xxxxx"   (Windows, mở terminal mới)
-API_KEY = os.getenv("65533035d7b795106040714a135389b7")
+API_KEY = os.getenv("SCOPUS_API_KEY")
 
 BASE_URL = "https://api.elsevier.com/content/search/scopus"
 
